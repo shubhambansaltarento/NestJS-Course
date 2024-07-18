@@ -16,7 +16,7 @@ import { User } from './user/entities/user.entity';
       password: 'simform',
       username: 'postgres',
       entities: [User], // here we have added user enitity in entities array
-      database: 'pgWithNest',
+      database: 'redisPoc',
       synchronize: true,
       logging: true,
     }),
